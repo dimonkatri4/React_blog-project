@@ -182,7 +182,7 @@ const Main=()=> {
 				<div className="sidebar-block popular-posts">
 					<div className="bar-title">Popular posts</div>
 					<div className="pop-post">
-						<div className="img-pop-post" alt="pop-post" />
+						<div className="img-pop-post">
 							<img src="images/img_pop1.png" alt="img_pop1" />
 						</div>
 						<div className="date-pop-post">March 6, 2019</div>
