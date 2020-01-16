@@ -1,15 +1,12 @@
 import React from 'react'
+import Logo from './Logo/Logo'
 
 const Header = () => {
     return (
         <header className="header">
             <div className="container head">
                 <div className="col-md-2">
-                    <div className="logo">
-                        <a href="">
-                            <img src="images/logo.png"/>
-                        </a>
-                    </div>
+                    <Logo/>
                 </div>
                 <div className="col-md-8">
                     <ul className="menu">
