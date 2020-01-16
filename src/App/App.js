@@ -1,4 +1,5 @@
 import React from 'react';
+import '../common/style/reset.css'
 
 const App = () => {
   return (
