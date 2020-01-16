@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from './Logo/Logo'
+import Menu from './Menu/Menu'
 
 const Header = () => {
     return (
@@ -9,13 +10,7 @@ const Header = () => {
                     <Logo/>
                 </div>
                 <div className="col-md-8">
-                    <ul className="menu">
-                        <li><a href="">Home</a></li>
-                        <li><a href="">Reviews</a></li>
-                        <li><a href="">Travel</a></li>
-                        <li><a href="">About me</a></li>
-                        <li><a href="">Contacts</a></li>
-                    </ul>
+                    <Menu/>
                 </div>
                 <div className="col-md-2">
                     <div className="social-link">
