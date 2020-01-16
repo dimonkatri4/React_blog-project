@@ -1,0 +1,7 @@
+.menu {
+	display: flex;
+}
+.menu li {
+	width: 90px;
+	height: 50px;
+}

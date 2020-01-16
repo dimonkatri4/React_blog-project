@@ -1,0 +1,26 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	font-family: 'Playfair Display', serif;
+	background-color: #ffffff;
+}
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	width: 1170px;
+	margin:0 auto;
+	box-sizing: border-box;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.menu a, .social-link a {
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	color: #3c3c3c;
+	font-family: Playfair Display;
+}
+.menu a:hover, .social-link a:hover {
+	background-color: rgba(0,0,0,0.05);
+	color: #c2aa6f;
+}

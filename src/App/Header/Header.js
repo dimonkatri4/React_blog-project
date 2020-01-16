@@ -2,6 +2,7 @@ import React from 'react'
 import Logo from './Logo/Logo'
 import Menu from './Menu/Menu'
 import SocialLink from './SocialLink/SocialLink'
+import './header.css'
 
 const Header = () => {
     return (
