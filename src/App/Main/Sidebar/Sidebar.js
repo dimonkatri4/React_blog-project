@@ -2,6 +2,8 @@ import React from 'react'
 import AboutMe from './AboutMe/AboutMe'
 import Categories from './Categories/Categories'
 import Subscribe from './Subscribe/Subscribe'
+import BarBanner from './BarBanner/BarBanner'
+import PopularPosts from './PopularPosts/POpularPosts'
 
 const Sidebar = () => {
     return (
@@ -9,36 +11,8 @@ const Sidebar = () => {
 				<AboutMe/>
 				<Categories/>
 				<Subscribe/>
-				<div className="sidebar-block bar-banner">
-					<div className="banner-img">
-						<img src="images/banner.png" alt="banner" />
-						<div className="banner-text">Banner spot</div>
-					</div>
-				</div>
-				<div className="sidebar-block popular-posts">
-					<div className="bar-title">Popular posts</div>
-					<div className="pop-post">
-						<div className="img-pop-post">
-							<img src="images/img_pop1.png" alt="img_pop1" />
-						</div>
-						<div className="date-pop-post">March 6, 2019</div>
-						<div className="title-pop-post"><a href="/">Make Your Adventure Sound Really Epic</a></div>
-					</div>
-					<div className="pop-post">
-						<div className="img-pop-post">
-							<img src="images/img_pop2.png" alt="img_pop2" />
-						</div>
-						<div className="date-pop-post">February 19, 2019</div>
-						<div className="title-pop-post"><a href="/">Podcast: Featuring Great Comments from Our Listeners</a></div>
-					</div>
-					<div className="pop-post">
-						<div className="img-pop-post">
-							<img src="images/img_pop3.png" alt="img_pop3" />
-						</div>
-						<div className="date-pop-post">January 6, 2019</div>
-						<div className="title-pop-post"><a href="/">Easy Ways to Add Color To Your Home</a></div>
-					</div>
-				</div>
+				<BarBanner/>
+				<PopularPosts/>
 				<div className="sidebar-block folllow-inst">
 					<div className="bar-title">Follow on instagram</div>
 					<div className="img-instagram">
