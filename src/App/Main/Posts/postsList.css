@@ -28,6 +28,9 @@
 	width: 100%;
 	height: 240px;
 }
+.caption {
+	height: 50px;;
+}
 .caption a {
 	font-family: raleway;
 	font-size: 25px;

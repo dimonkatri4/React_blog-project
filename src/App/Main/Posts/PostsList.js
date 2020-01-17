@@ -1,24 +1,33 @@
 import React from 'react'
 import './postsList.css'
 import PostListItem from './PostListItem'
+import postsData from './postsData'
 
 const PostsList = () => {
     return (
         <div className="posts-block">
-            <PostListItem/>
-            <div className="post">
-                <div className="way in-post"><pre><a href="/">LifeStyle</a><span>   /   March 13, 2019</span></pre></div>
-                <div className="caption">
-                    <a href="/">Wallpaper Wednesday: Glowing Place to Be</a>
-                </div>
-                <div className="img-post">
-                    <img src="images/post/img_post2.png" alt="post2"/>
-                </div>
-                <div className="text-post">The North Cascades might be the biggest secret in American mountain ranges. Well, no, it’s not a secret secret — people in the know know, but beyond...</div>
-                <div>
-                    <button className="btn btn-post">Read more</button>
-                </div>
-            </div>
+            {
+                postsData.map((
+                    {
+                        id,
+                        category,
+                        date,
+                        caption,
+                        image,
+                        text
+                    }
+                ) => (
+                        <PostListItem
+                            category={category}
+                            date={date}
+                            caption={caption}
+                            image={image}
+                            text={text}
+                        />
+                )
+
+                )
+            }
             <div className="special-post">
                     <img src="images/post/spec_post.png" alt="spec-post"/>
                     <div className="content-block">
@@ -31,84 +40,6 @@ const PostsList = () => {
                             <button className="btn read-more">Read more</button>
                         </div>
                     </div>
-            </div>
-            <div className="post">
-                <div className="way in-post"><pre><a href="/">LifeStyle</a><span>   /   March 6, 2019</span></pre></div>
-                <div className="caption">
-                    <a href="/">Anatomy of a Sandbag</a>
-                </div>
-                <div className="img-post">
-                    <img src="images/post/img_post3.png" alt="" />
-                </div>
-                <div className="text-post">Did you ever see the epic clip, above, of a mountain bike racer crashing, only to watch his bike ride away on its own? Give it a quick look  and then ponder...</div>
-                <div>
-                    <button className="btn btn-post">Read more</button>
-                </div>
-            </div>
-            <div className="post">
-                <div className="way in-post"><pre><a href="/">Podcast</a><span>   /   March 4, 2019</span></pre></div>
-                <div className="caption">
-                    <a href="/">ONE FORK TO RULE THEM</a>
-                </div>
-                <div className="img-post">
-                    <img src="images/post/img_post4.png" alt="post4" />
-                </div>
-                <div className="text-post">Once upon a time, every mountain biker wanted the same fork because, really, practically every mountain biker was riding the same bike—a hardtail.</div>
-                <div>
-                    <button className="btn btn-post">Read more</button>
-                </div>
-            </div>
-            <div className="post">
-                <div className="way in-post"><pre><a href="/">LifeStyle</a><span>   /   March 14, 2019</span></pre></div>
-                <div className="caption">
-                    <a href="/">My Favorite Affordable House Moments</a>
-                </div>
-                <div className="img-post">
-                    <img src="images/post/img_post5.png" alt="post5" />
-                </div>
-                <div className="text-post">Did you ever see the epic clip, above, of a mountain bike racer crashing, only to watch his bike ride away on its own? Give it a quick look  and then ponder...</div>
-                <div>
-                    <button className="btn btn-post">Read more</button>
-                </div>
-            </div>
-            <div className="post">
-                <div className="way in-post"><pre><a href="/">Reviews</a><span>   /   March 19, 2019</span></pre></div>
-                <div className="caption">
-                    <a href="/">The Prettiest Personalized Jewelry</a>
-                </div>
-                <div className="img-post">
-                    <img src="images/post/img_post6.png" alt="post6" />
-                </div>
-                <div className="text-post">Once upon a time, every mountain biker wanted the same fork because, really, practically every mountain biker was riding the same bike—a hardtail.</div>
-                <div>
-                    <button className="btn btn-post">Read more</button>
-                </div>
-            </div>
-            <div className="post">
-                <div className="way in-post"><pre><a href="/">LifeStyle</a><span>   /   March 20, 2019</span></pre></div>
-                <div className="caption">
-                    <a href="/">My Favorite Affordable House Moments</a>
-                </div>
-                <div className="img-post">
-                    <img src="images/post/img_post7.png" alt="post7" />
-                </div>
-                <div className="text-post">Did you ever see the epic clip, above, of a mountain bike racer crashing, only to watch his bike ride away on its own? Give it a quick look  and then ponder...</div>
-                <div>
-                    <button className="btn btn-post">Read more</button>
-                </div>
-            </div>
-            <div className="post">
-                <div className="way in-post"><pre><a href="/">Reviews</a><span>   /   March 28, 2019</span></pre></div>
-                <div className="caption">
-                    <a href="/">The Prettiest Personalized Jewelry</a>
-                </div>
-                <div className="img-post">
-                    <img src="images/post/img_post8.png" alt="post8" />
-                </div>
-                <div className="text-post">Once upon a time, every mountain biker wanted the same fork because, really, practically every mountain biker was riding the same bike—a hardtail.</div>
-                <div>
-                    <button className="btn btn-post">Read more</button>
-                </div>
             </div>
             <div className="show-more">
                 <a href="/">Show more</a>
