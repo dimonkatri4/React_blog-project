@@ -1,19 +1,12 @@
 import React from 'react'
 import AboutMe from './AboutMe/AboutMe'
+import Categories from './Categories/Categories'
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
 				<AboutMe/>
-				<div className="sidebar-block categories">
-					<div className="bar-title">Categories</div>
-					<div className="link-categories">
-						<a href="/">Lifestyle</a>
-						<a href="/">Podcast</a>
-						<a href="/">Reviews</a>
-						<a href="/">Travel</a>
-					</div>
-				</div>
+				<Categories/>
 				<div className="sidebar-block subscribe">
 					<div className="bar-title">Subscribe to newsletter</div>
 					<div className="bar-text">Subscribe to our free newsletter to be in touch with our new articles.</div>
