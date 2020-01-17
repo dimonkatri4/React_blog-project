@@ -3,9 +3,10 @@ import AboutMe from './AboutMe/AboutMe'
 import Categories from './Categories/Categories'
 import Subscribe from './Subscribe/Subscribe'
 import BarBanner from './BarBanner/BarBanner'
-import PopularPosts from './PopularPosts/POpularPosts'
+import PopularPosts from './PopularPosts/PopularPosts'
 import FollowInst from './FollowInst/FollowInst'
-import PopularTag from './PopularTags/PopularTags'
+import PopularTags from './PopularTags/PopularTags'
+import './sidebar.css'
 
 const Sidebar = () => {
     return (
@@ -16,7 +17,7 @@ const Sidebar = () => {
 				<BarBanner/>
 				<PopularPosts/>
 				<FollowInst/>
-				<PopularTag/>
+				<PopularTags/>
 			</div>
     )
 }

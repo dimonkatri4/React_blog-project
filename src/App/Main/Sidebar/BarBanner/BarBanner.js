@@ -1,4 +1,6 @@
 import React from 'react'
+import './barBanner.css'
+
 
 const BarBanner = () => {
     return (

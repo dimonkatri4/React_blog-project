@@ -1,0 +1,14 @@
+.banner-img {
+	position: relative;
+	margin: 20px;
+	background-color: #f9f9f9;
+	display: flex;
+	justify-content: flex-end;
+	position: relative;
+}
+.banner-text {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	text-transform: uppercase;
+}

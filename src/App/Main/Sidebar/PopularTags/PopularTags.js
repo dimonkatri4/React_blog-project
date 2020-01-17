@@ -1,6 +1,7 @@
 import React from 'react'
+import './popularTags.css'
 
-const PopularTag = () => {
+const PopularTags = () => {
     return (
         <div className="sidebar-block popular-tags">
             <div className="bar-title">Popular tags</div>
@@ -17,4 +18,4 @@ const PopularTag = () => {
     )
 }
 
-export default PopularTag
+export default PopularTags

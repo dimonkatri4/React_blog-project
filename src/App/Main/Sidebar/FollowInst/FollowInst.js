@@ -1,4 +1,6 @@
 import React from 'react'
+import './followInst.css'
+
 
 const FollowInst = () => {
     return (

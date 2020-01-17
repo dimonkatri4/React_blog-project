@@ -1,0 +1,30 @@
+.img-instagram {
+	margin: 0px 30px 40px 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+	height: 280px;
+}
+.img-instagram img {
+	display: block;
+	width: 130px;
+	height: 130px;
+}
+.img-instagram a {
+	position: relative;
+	display: block;
+}
+.img-instagram a:after {
+	content: '';
+	position:absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0,0,0,.5);
+	opacity: 0;
+}
+.img-instagram a:hover:after {
+    opacity: 1;
+}
