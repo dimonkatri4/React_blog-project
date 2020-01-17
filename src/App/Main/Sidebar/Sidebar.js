@@ -1,22 +1,14 @@
 import React from 'react'
 import AboutMe from './AboutMe/AboutMe'
 import Categories from './Categories/Categories'
+import Subscribe from './Subscribe/Subscribe'
 
 const Sidebar = () => {
     return (
         <div className="sidebar">
 				<AboutMe/>
 				<Categories/>
-				<div className="sidebar-block subscribe">
-					<div className="bar-title">Subscribe to newsletter</div>
-					<div className="bar-text">Subscribe to our free newsletter to be in touch with our new articles.</div>
-					<div className="bar-email">
-						<input type="email" placeholder="YOUR E-MAIL..." name=""/>
-					</div>
-					<div>
-						<button className="btn btn-subscribe">Subscribe</button>
-					</div>
-				</div>
+				<Subscribe/>
 				<div className="sidebar-block bar-banner">
 					<div className="banner-img">
 						<img src="images/banner.png" alt="banner" />
