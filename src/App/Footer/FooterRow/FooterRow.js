@@ -1,4 +1,5 @@
 import React from 'react'
+import './footerRow.css'
 
 const FooterRow = () => {
     return (

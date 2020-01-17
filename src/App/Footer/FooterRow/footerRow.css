@@ -1,0 +1,10 @@
+.footer-row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	margin: 55px 0;
+}
+.signature-footer {
+	line-height: 50px;
+}

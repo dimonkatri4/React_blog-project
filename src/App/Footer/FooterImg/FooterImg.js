@@ -1,4 +1,5 @@
 import React from 'react'
+import './footerImg.css'
 
 const FooterImg = () => {
     return (

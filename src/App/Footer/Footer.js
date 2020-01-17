@@ -1,6 +1,7 @@
 import React from 'react'
 import FooterRow from './FooterRow/FooterRow'
 import FooterImg from './FooterImg/FooterImg'
+import './footer.css'
 
 const Footer = () => {
     return (
