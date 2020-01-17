@@ -60,3 +60,10 @@ body {
 	background-color: #ffffff;
 	color: #3c3c3c;
 }
+.spec-caption a, .special-post .text-post, .spec-post a {
+	color: white;
+}
+.btn-post:hover, .btn-subscribe:hover, .pop-tag a:hover {
+	background-color: rgba(194,170,111,0.5);
+	color: rgba(0,0,0,0.5);
+}

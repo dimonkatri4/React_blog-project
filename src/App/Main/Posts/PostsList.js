@@ -1,4 +1,5 @@
 import React from 'react'
+import './postsList.css'
 
 const PostsList = () => {
     return (
@@ -9,7 +10,7 @@ const PostsList = () => {
                     <a href="/">Make your adventure sound really epic</a>
                 </div>
                 <div className="img-post">
-                    <img src="images/img_post1.png" alt="post1"/>
+                    <img src="images/post/img_post1.png" alt="post1"/>
                 </div>
                 <div className="text-post">Do you find yourself reading stories about adventures in outdoor magazines and websites and feeling down about what you did on your summer vacation?</div>
                 <div>
