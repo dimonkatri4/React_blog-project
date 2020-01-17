@@ -4,6 +4,7 @@ import Header from './Header/Header'
 import '../common/style/base.css'
 import Slider from './Slider/Slider';
 import Main from './Main/Main';
+import Footer from './Footer/Footer';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header/>
       <Slider/>
       <Main/>
+      <Footer/>
     </div>
   )
 }
