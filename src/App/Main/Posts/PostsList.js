@@ -7,7 +7,9 @@ const PostsList = () => {
     return (
         <div className="posts-block">
             {
-                postsData.map((
+                postsData.filter(function(e) {
+                    return e.id<=2;
+                }).map((
                     {
                         id,
                         category,
@@ -17,7 +19,7 @@ const PostsList = () => {
                         text
                     }
                 ) => (
-                        <PostListItem
+                        <PostListItem key={id}
                             category={category}
                             date={date}
                             caption={caption}
@@ -41,6 +43,30 @@ const PostsList = () => {
                         </div>
                     </div>
             </div>
+            {
+                postsData.filter(function(e) {
+                    return e.id>2;
+                }).map((
+                    {
+                        id,
+                        category,
+                        date,
+                        caption,
+                        image,
+                        text
+                    }
+                ) => (
+                        <PostListItem key={id}
+                            category={category}
+                            date={date}
+                            caption={caption}
+                            image={image}
+                            text={text}
+                        />
+                )
+
+                )
+            }
             <div className="show-more">
                 <a href="/">Show more</a>
             </div>

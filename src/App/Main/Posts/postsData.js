@@ -70,6 +70,14 @@ const postsData = [
         caption: "GREAT Wednesday: Glowing Place",
         image: './images/post/spec_post.png',
         text: "The North Cascades might be the biggest secret in American mountain ranges. Well, no, it’s not a secret secret — people in the know know, but beyond..."
+    },
+    {
+        id: 10,
+        category: "LifeStyle",
+        date: "March 14, 2019",
+        caption: "My Favorite Affordable House Moments",
+        image: './images/post/img_post5.png',
+        text: "Do you find yourself reading stories about adventures in outdoor magazines and websites and feeling down about what you did on your summer vacation?"
     }
 
 ]
