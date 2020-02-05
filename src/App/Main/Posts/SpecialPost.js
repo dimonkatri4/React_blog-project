@@ -1,4 +1,5 @@
 import React from 'react'
+import './postsList.css'
 
 const SpecialPost = () => {
     return (
