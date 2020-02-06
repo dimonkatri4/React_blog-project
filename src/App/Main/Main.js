@@ -5,6 +5,7 @@ import { Route } from 'react-router-dom'
 import LifeStylePage from './LifeStylePage/LifeStylePage'
 import PodcastPage from './PodcastPage/PodcastPage'
 import ReviewsPage from './ReviewsPage/ReviewsPage'
+import TravelPage from './TravelPage/TravelPage'
 
 const Main=()=> {
     return (
@@ -14,6 +15,7 @@ const Main=()=> {
 			<Route path="/lifestyle" component = {LifeStylePage} />
 			<Route path="/podcast" component = {PodcastPage} />
 			<Route path="/reviews" component = {ReviewsPage} />
+			<Route path="/travel" component = {TravelPage} />
 			<Sidebar/>
 		</div>
 	</main>

@@ -9,7 +9,7 @@ const postsData = [
     },
     {
         id: 2,
-        category: "LifeStyle",
+        category: "Podcast",
         date: "March 13, 2019",
         caption: "Wallpaper Wednesday: Glowing Place to Be",
         image: './images/post/img_post2.png',
