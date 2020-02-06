@@ -30,9 +30,6 @@ const LifeStylePage = () => {
 
                 )
             }
-            <div className="show-more">
-                <a href="/">Show more</a>
-            </div>
         </div>
     )
 }
