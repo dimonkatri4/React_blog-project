@@ -8,7 +8,7 @@ const TravelPage = () => {
         <div className="posts-block">
             {
                 postsData.filter(function(e) {
-                    return e.category == "Travel"
+                    return e.category === "Travel"
                 }).map((
                     {
                         id,

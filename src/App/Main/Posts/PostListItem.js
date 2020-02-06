@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const PostListItem = ({
     category,
@@ -10,7 +11,7 @@ const PostListItem = ({
 }) => {
     return (
         <div className="post">
-            <div className="way in-post"><pre><a href="/">{category}</a><span>   /   {date}</span></pre></div>
+            <div className="way in-post"><pre><Link to={category} >{category}</Link><span>   /   {date}</span></pre></div>
             <div className="caption">
                 <a href="/">{caption}</a>
             </div>

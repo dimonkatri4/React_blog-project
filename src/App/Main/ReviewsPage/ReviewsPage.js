@@ -8,7 +8,7 @@ const ReviewsPage = () => {
         <div className="posts-block">
             {
                 postsData.filter(function(e) {
-                    return e.category == "Reviews"
+                    return e.category === "Reviews"
                 }).map((
                     {
                         id,

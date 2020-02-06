@@ -8,7 +8,7 @@ const PodcastPage = () => {
         <div className="posts-block">
             {
                 postsData.filter(function(e) {
-                    return e.category == "Podcast"
+                    return e.category === "Podcast"
                 }).map((
                     {
                         id,

@@ -8,7 +8,7 @@ const LifeStylePage = () => {
         <div className="posts-block">
             {
                 postsData.filter(function(e) {
-                    return e.category == "LifeStyle"
+                    return e.category === "LifeStyle"
                 }).map((
                     {
                         id,
@@ -30,6 +30,9 @@ const LifeStylePage = () => {
 
                 )
             }
+            <div className="show-more">
+                <a href="/">Show more</a>
+            </div>
         </div>
     )
 }
