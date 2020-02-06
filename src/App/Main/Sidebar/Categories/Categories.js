@@ -8,8 +8,7 @@ const Categories = () => {
             <div className="bar-title">Categories</div>
             <div className="link-categories">
                 <Link to="/lifestyle">Lifestyle</Link>
-                {/* <a href="/">Lifestyle</a> */}
-                <a href="/">Podcast</a>
+                <Link to="/podcast">Podcast</Link>
                 <a href="/">Reviews</a>
                 <a href="/">Travel</a>
             </div>
