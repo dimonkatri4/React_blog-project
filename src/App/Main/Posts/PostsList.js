@@ -31,7 +31,30 @@ const PostsList = () => {
 
                 )
             }
-            <SpecialPost/>
+            {
+                postsData.filter(function(e) {
+                    return e.id===9;
+                }).map((
+                    {
+                        id,
+                        category,
+                        date,
+                        caption,
+                        image,
+                        text
+                    }
+                ) => (
+                        <SpecialPost key={id}
+                            category={category}
+                            date={date}
+                            caption={caption}
+                            image={image}
+                            text={text}
+                        />
+                )
+
+                )
+            }
             {
                 postsData.filter(function(e) {
                     return e.id>2;
