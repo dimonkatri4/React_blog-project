@@ -39,6 +39,9 @@
 	text-decoration: none;
 	color: black;
 }
+.caption a:hover {
+	color: rgba(0,0,0,0.5);
+}
 .text-post, .bar-text {
 	font-size: 14px;
 	color: #6a6a6a;

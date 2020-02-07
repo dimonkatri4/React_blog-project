@@ -1,5 +1,6 @@
 import React from 'react'
 import './postsList.css'
+import { Link } from 'react-router-dom'
 
 const SpecialPost = ({
     category,
@@ -12,9 +13,9 @@ const SpecialPost = ({
             <div className="special-post">
                 <img src={image} alt={image}/>
                 <div className="content-block">
-                    <div className="way spec-post"><pre><a href="/">{category}</a><span>   /   {date}</span></pre></div>
+                    <div className="way spec-post"><pre><Link to={category}>{category}</Link><span>   /   {date}</span></pre></div>
                     <div className="caption spec-caption">
-                        <a href="/">{caption}</a>
+                        <Link to="/">{caption}</Link>
                     </div>
                     <div className="text-post">{text}</div> 
                     <div>
