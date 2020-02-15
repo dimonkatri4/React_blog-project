@@ -5,12 +5,13 @@ import '../common/style/base.css'
 import Slider from './Slider/Slider';
 import Main from './Main/Main';
 import Footer from './Footer/Footer';
+import { Route } from 'react-router-dom';
 
 const App = () => {
   return (
     <div className="App">
       <Header/>
-      <Slider/>
+      <Route exact path="/" component={Slider} />
       <Main/>
       <Footer/>
     </div>
